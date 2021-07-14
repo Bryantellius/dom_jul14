@@ -1,0 +1,52 @@
+html,
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+.special {
+  color: blue;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-grow-2 {
+  flex-grow: 2;
+}
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+article {
+  max-width: 600px;
+  padding: 1rem;
+  position: relative;
+}
