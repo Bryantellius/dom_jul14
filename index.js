@@ -46,13 +46,6 @@ const countries = [italy, usa, japan];
 // Create a number variable that stands for my currently shown country index
 let index = 0;
 
-function updateDom() {
-  name.textContent = countries[index].name;
-  desc.textContent = countries[index].description;
-  pop.textContent = countries[index].population;
-  lang.textContent = countries[index].language;
-}
-
 // Select elements from the document that I need to change their content
 let name = document.getElementById("countryName");
 let desc = document.getElementById("countryDesc");
@@ -61,6 +54,13 @@ let lang = document.getElementById("countryLanguage");
 
 let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
+
+function updateDom() {
+  name.textContent = countries[index].name;
+  desc.textContent = countries[index].description;
+  pop.textContent = countries[index].population;
+  lang.textContent = countries[index].language;
+}
 
 updateDom();
 
